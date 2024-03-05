@@ -10,7 +10,7 @@ export function hmac(data: string, secret: string, algorithm: string) {
 export function encodeSignedHmac<Header, Payload>(payload: Payload) {
     // Your secret key
     // please, use a better secret key and keep it safe!
-    const secretKey = 'my-atd18-secret'; 
+    const secretKey = 'my-beltech-2024-secret'; 
 
     // HMAC algorithm
     const algorithm = 'sha256';

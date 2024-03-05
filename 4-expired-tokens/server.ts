@@ -4,7 +4,7 @@ import { toBase64 } from "../0-making-jwts-sensitive-data/utils";
 const jwtKind = process.argv[2]
 const jwt = require(`./${jwtKind}-jwt`).jwt;
 
-const secretKey = 'my-atd18-secret'; // please, use a better secret key and keep it safe!
+const secretKey = 'my-beltech-2024-secret'; // please, use a better secret key and keep it safe!
 
 const verifications: Record<string, (token: string, keys: any) => boolean> = {
     "none": () => true,

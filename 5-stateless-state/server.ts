@@ -13,7 +13,7 @@ const verifications: Record<string, (token: string, keys: any) => boolean> = {
     }
 }
 
-const secretKey = 'my-atd18-secret'; // please, use a better secret key and keep it safe!
+const secretKey = 'my-beltech-2024-secret'; // please, use a better secret key and keep it safe!
 
 const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
