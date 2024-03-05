@@ -4,7 +4,7 @@ JSON Web Tokens are everywhere - you are using a bunch of them right now. It's s
 
 ## Slides
 
-[Slides](https://speakerdeck.com/sweko/how-to-mess-up-with-jwts-a-practitioners-guide)
+[Slides](https://speakerdeck.com/sweko/how-to-mess-up-jwts-a-practioners-guide)
 
 ## What is a JWT?
 
